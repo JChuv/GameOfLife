@@ -1,8 +1,9 @@
-import java.util.Scanner;
+package GameOfLife;
 
 public class GameOfLife {
     public static void main(String[] args) {
-        Board2 tablero = new Board2();
+        Display d = new Display();
+        PrimitiveBoard tablero = new PrimitiveBoard();
         while(true) {
             tablero.turn();
         }
