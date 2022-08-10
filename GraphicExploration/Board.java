@@ -4,8 +4,8 @@ import javax.swing.JFrame;
 
 public class Board {
     public static void main(String[] args) {
-        int width = 500;
-        int height = 500;
+        int width = 650;
+        int height = 650;
         JFrame board = new JFrame();
         board.setTitle("Dibujico");
         board.setSize(width, height);
